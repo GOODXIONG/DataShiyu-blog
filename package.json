@@ -1,0 +1,21 @@
+{
+    "name": "DataShiyu",
+    "version": "1.0.0",
+    "description": "Fascinating Blog",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GOODXIONG/DataShiyu-blog.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "dev": "vuepress dev src",
+        "build": "vuepress build src --dest dist"
+    },
+    "dependencies": {
+        "vuepress": "^1.0.0-rc.1",
+        "vuepress-theme-meteorlxy": "^1.5.1"
+    }
+}
